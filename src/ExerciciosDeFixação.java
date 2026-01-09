@@ -1,6 +1,7 @@
 // Exercicios:
 
 
+import java.util.Scanner;
 
 public class ExerciciosDeFixação {
     public static void main (String [] args ){
@@ -92,6 +93,119 @@ public class ExerciciosDeFixação {
 
         */
 
+        // 8 Crie um programa que solicite ao usuário digitar um número. Se o número for positivo, exiba "Número positivo", caso contrário, exiba
+        // "Número negativo".
+/*        Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Digite um número: ");
+        int numero = scanner.nextInt();
+
+        if (numero > 0) {
+            System.out.println("Número positivo");
+        } else {
+            System.out.println("Número negativo");
+        }
+
+*/
+
+        // 9 Peça ao usuário para inserir dois números inteiros. Compare os números e imprima uma mensagem indicando se são iguais, diferentes, o primeiro é maior ou o segundo é maior.
+
+        /*Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite o primeiro número: ");
+        int numeroUm = scanner.nextInt();
+        System.out.println("Digite o segundo número: ");
+        int numeroDois = scanner.nextInt();
+
+        if (numeroUm == numeroDois){
+            System.out.println("Numero Iguais");
+        } else if (numeroUm > numeroDois) {
+            System.out.println("O primeiro número é maior.");
+        }
+        else {
+            System.out.println("O segundo número é maior");
+        }*/
+
+        // 10 Crie um menu que oferece duas opções ao usuário:
+        // "1. Calcular área do quadrado" e "2. Calcular área do círculo". Solicite a escolha do usuário e realize o cálculo da área com base na opção selecionada.
+
+        /* Scanner scanner = new Scanner(System.in);
+
+        int numero = 0;
+
+        while (numero != 3) {
+            System.out.println("1° Calcular área do quadrado ");
+            System.out.println("2° Calcular área do circulo ");
+            System.out.println("3° Nenhuma das Anteriores.");
+            System.out.print("Escolha uma das opções: ");
+
+             numero = scanner.nextInt();
+
+             if (numero == 1) {
+                 System.out.println("Digite o lado do quadrado: ");
+                 double lado = scanner.nextDouble();
+                 double areaDoQuadrado = lado * lado;
+                 System.out.println("A Área do quadrado é : " + areaDoQuadrado);
+                 break;
+
+             } else if (numero == 2) {
+                 System.out.println("Digite a Área do circulo: ");
+                 double circulo = scanner.nextDouble();
+                 double areaDoCirculo = 3.14 * circulo * circulo;
+                 System.out.println("O raio do circulo é de : " + areaDoCirculo);
+                 break;
+             } else if (numero == 3) {
+                 System.out.println("Aplicação Encerrada.");
+             } else {
+                 System.out.println("Opção inválida, tente novamente.");
+             }
+        } */
+
+        // 11 Crie um programa que solicite ao usuário um número e exiba a tabuada desse número de 1 a 10.
+
+        /* Scanner scanner = new Scanner(System.in);
+
+        System.out.println(" ========== Gerador de Tabuada. ============");
+        System.out.println("Digite um número: ");
+        int numero = scanner.nextInt();
+
+        System.out.println("Com esse número conseguimos a tabuada do " + numero);
+        System.out.println(" ====================================== ");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(numero + " x " + i + " = " + (numero * i));
+        }
+        System.out.println("====================================== ");
+        System.out.println("Aplicação finalizada com sucesso. Bons estudos!");
+
+        scanner.close(); */
+
+
+        // 12 Crie um programa que solicite ao usuário a entrada de um número inteiro. Verifique se o número é par ou ímpar e exiba uma mensagem correspondente.
+
+        /*Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite um número Inteiro: ");
+
+        int numero = scanner.nextInt();
+
+        if (numero % 2 == 0) {
+            System.out.println("O número digitado é PAR.");
+        } else {
+            System.out.println("O número é ÍMPAR.");
+        }*/
+
+
+        // 13 Crie um programa que solicite ao usuário um número e calcule o fatorial desse número.
+
+        /* Scanner scanner = new Scanner(System.in);
+         System.out.println("Digite um número para saber o seu Fatorial: ");
+
+         int numero = scanner.nextInt();
+
+         int fatorial = 1;
+
+         for (int i = 1; i <= numero; i++) {
+             fatorial *= i;
+         }
+         System.out.println("O fatorial de " + numero + " é: " + fatorial); */
     }
 }

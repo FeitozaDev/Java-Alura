@@ -1,9 +1,9 @@
-import java.sql.SQLOutput;
+/*
 import java.util.Scanner;
 
 public class Condicional {
     public static void main (String [] args) {
-/*
+
         String nome = "Lucas";
         double nota1 = 5.7 + 6.8 + 3.0;
         double media = nota1 / 3;
@@ -15,11 +15,11 @@ public class Condicional {
             System.out.println("O aluno " + nome + "foi Reprovado com nota :  " + media);
 
         }
- */
+
 
         // Exemplos de Input (Interação com o Usúario)
 
-        /* Scanner leitura = new Scanner(System.in);
+         Scanner leitura = new Scanner(System.in);
 
         System.out.println("Digite seu Nome : ");
         String palavra = leitura.nextLine();
@@ -30,11 +30,11 @@ public class Condicional {
         System.out.println("Digite sua Altura : ");
         double tamanho = leitura.nextDouble();
 
-        System.out.println("Olá meu nome é  " + palavra + ", tenho  " + idade + " Anos, e minha altura é : " + tamanho +  " Metros."); */
+        System.out.println("Olá meu nome é  " + palavra + ", tenho  " + idade + " Anos, e minha altura é : " + tamanho +  " Metros.");
 
         // Utilizando FOR
 
-        /* Scanner leitura = new Scanner(System.in);
+         Scanner leitura = new Scanner(System.in);
         double mediaAvaliacao = 0;
         double nota = 0;
 
@@ -44,11 +44,11 @@ public class Condicional {
             mediaAvaliacao += nota;
         }
 
-        System.out.println("Média de Avaliação é : " + mediaAvaliacao /4 ); */
+        System.out.println("Média de Avaliação é : " + mediaAvaliacao /4 );
 
         //  Utilizando WHILE
 
-        /*Scanner leitura = new Scanner(System.in);
+        Scanner leitura = new Scanner(System.in);
 
         double mediaNota = 0;
         double nota = 0;
@@ -68,6 +68,7 @@ public class Condicional {
             System.out.print("Media das notas : " +mediaNota / totalNotas );
         } else {
             System.out.print("Nenhuma nota foi registrada.");
-        } */
+        }
     }
 }
+*/
